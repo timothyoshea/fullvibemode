@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "pre_tool_use": [
+      {
+        "match": {},
+        "run": ["hooks/pre_tool_use.py"]
+      }
+    ],
+    "post_tool_use": [
+      {
+        "match": {},
+        "run": ["hooks/post_tool_use.py"]
+      }
+    ],
+    "notification": [
+      {
+        "match": {},
+        "run": ["hooks/notification.py"]
+      }
+    ],
+    "stop": [
+      {
+        "match": {},
+        "run": ["hooks/stop.py"]
+      }
+    ]
+  }
+}
