@@ -457,11 +457,9 @@ echo ""
 echo "🚀 You now have Claude Code Ultra automation ready!"
 echo "Features: Ultra thinking, YOLO mode, smart notifications, auto-checkpoints"
 
-chmod +x "$INSTALL_DIR/quick-install.sh"
+chmod +x "$INSTALL_DIR/setup-claude-code.sh"
 
-# Now run the setup
-echo "🔧 Installing Claude Code Ultra system..."
-bash "$INSTALL_DIR/quick-install.sh"
+# Installation complete - no need to run additional scripts
 
 echo ""
 echo "📋 Installation Summary:"
