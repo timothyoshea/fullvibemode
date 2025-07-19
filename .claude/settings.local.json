@@ -10,7 +10,18 @@
       "Bash(git init:*)",
       "Bash(git config:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:github.com)",
+      "Bash(git remote get-url:*)",
+      "Bash(cp:*)",
+      "Bash(grep:*)",
+      "Bash(true)",
+      "Bash(claude-setup --help)",
+      "Bash(/Users/timoshea/.claude-code-ultra/setup-claude-code.sh:*)",
+      "Bash(cat:*)"
     ],
     "deny": []
   }

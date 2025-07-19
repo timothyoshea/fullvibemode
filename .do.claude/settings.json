@@ -1,28 +1,53 @@
 {
+  "permissions": {
+    "bash": "allow",
+    "read": "allow",
+    "write": "allow",
+    "edit": "allow",
+    "grep": "allow",
+    "glob": "allow",
+    "multi_edit": "allow"
+  },
   "hooks": {
     "pre_tool_use": [
       {
         "match": {},
-        "run": ["hooks/pre_tool_use.py"]
+        "run": ["hooks/enhanced_pre_tool.py"]
       }
     ],
     "post_tool_use": [
       {
         "match": {},
-        "run": ["hooks/post_tool_use.py"]
+        "run": ["hooks/enhanced_post_tool.py"]
       }
     ],
     "notification": [
       {
         "match": {},
-        "run": ["hooks/notification.py"]
+        "run": ["hooks/smart_notification.py"]
       }
     ],
     "stop": [
       {
         "match": {},
-        "run": ["hooks/stop.py"]
+        "run": ["hooks/session_manager.py"]
       }
     ]
+  },
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["@modelcontextprotocol/server-filesystem", "./"],
+      "transport": "stdio"
+    },
+    "sqlite": {
+      "command": "npx",
+      "args": ["@modelcontextprotocol/server-sqlite"],
+      "transport": "stdio"
+    }
+  },
+  "environment": {
+    "DISABLE_NON_ESSENTIAL_MODEL_CALLS": "true",
+    "CLAUDE_CODE_DISABLE_TERMINAL_TITLE": "true"
   }
 }
