@@ -456,7 +456,6 @@ echo "  claude"
 echo ""
 echo "🚀 You now have Claude Code Ultra automation ready!"
 echo "Features: Ultra thinking, YOLO mode, smart notifications, auto-checkpoints"
-EOF
 
 chmod +x "$INSTALL_DIR/quick-install.sh"
 
