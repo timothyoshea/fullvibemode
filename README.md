@@ -57,6 +57,162 @@ think more about optimization strategies
 - Automation efficiency metrics
 - Session history tracking
 
+## 🎮 Advanced Features & Commands
+
+### **🧠 Ultra Thinking Modes**
+FullVibeMode enhances Claude's reasoning with progressive thinking levels:
+```bash
+# Basic extended thinking
+think about this problem
+
+# Deeper analysis
+think harder about this architecture
+think more about potential edge cases
+think longer about optimization strategies
+
+# Maximum reasoning power
+think ultra hard about this complex system
+think deeply about all possible approaches
+```
+
+### **🤖 Smart Automation Commands**
+FullVibeMode automatically handles routine tasks:
+```bash
+# These happen automatically when you:
+npm install        # → Auto-checkpoint + notification
+git commit        # → Session logging + progress tracking
+npm run build     # → Build status notifications
+pip install       # → Dependency tracking + alerts
+```
+
+### **🔔 Notification System**
+Real-time macOS alerts for everything:
+- **Development**: `📦 NPM: Packages installed successfully`
+- **Build Status**: `🔨 Build: Completed in 45s`
+- **File Changes**: `📝 File Updated: server.js`
+- **Security**: `⚠️ Blocked: rm -rf command`
+- **Progress**: `📁 Auto-Checkpoint: Changes saved to git`
+- **Session**: `📊 Session: 23 tools used in 8.5m (high productivity)`
+
+### **🌐 Multi-Agent MCP Operations**
+Leverage specialized agents for different tasks:
+```bash
+# Filesystem operations
+@filesystem search for "config" files
+@filesystem list all TypeScript files
+@filesystem find files modified today
+
+# Database operations  
+@sqlite query users table
+@sqlite analyze database schema
+@sqlite backup current database
+
+# GitHub integration
+@github create pull request
+@github list recent issues
+@github check workflow status
+
+# Project-specific agents (auto-detected)
+@npm list outdated packages        # Node.js projects
+@pip show package dependencies     # Python projects
+@cargo check build status          # Rust projects
+```
+
+### **⚡ YOLO Mode Features**
+Minimal interruption, maximum productivity:
+- **Auto-approval** for safe commands (ls, cat, grep, git status)
+- **Smart validation** blocks dangerous operations automatically
+- **Context-aware permissions** adapt to your project type
+- **Batch operations** handle multiple tasks seamlessly
+- **Error recovery** gracefully handles failures
+
+### **📊 Session Analytics Dashboard**
+Track your productivity with detailed insights:
+```bash
+# Automatic metrics collection:
+- Tools used per minute
+- Automation efficiency score
+- Most productive time patterns
+- Command safety statistics
+- Session duration and outcomes
+- Productivity trends over time
+```
+
+### **🛡️ Advanced Security Features**
+Intelligent protection without interruption:
+```bash
+# Automatically blocked (with notifications):
+rm -rf *                    # Dangerous deletions
+sudo anything               # Privilege escalation  
+curl | sh                   # Pipe to shell execution
+chmod 777                   # Overly permissive permissions
+
+# Automatically allowed (silent execution):
+ls, cat, grep, find        # Safe read operations
+git status, log, diff      # Safe git operations
+npm list, info             # Safe package queries
+```
+
+### **🔧 Project-Specific Configurations**
+FullVibeMode auto-detects and configures for:
+
+**Node.js Projects:**
+- NPM package management integration
+- Build tool automation (webpack, vite, etc.)
+- ESLint/Prettier auto-formatting
+- Jest/Mocha test runner integration
+
+**Python Projects:**
+- Virtual environment detection
+- Pip dependency management
+- Poetry/Pipenv support
+- pytest/unittest integration
+
+**Rust Projects:**
+- Cargo build automation
+- Dependency update notifications
+- Test runner integration
+- Performance monitoring
+
+**Java Projects:**
+- Maven/Gradle build integration
+- Dependency management
+- JUnit test automation
+- Spring Boot optimizations
+
+### **📈 Productivity Boosters**
+```bash
+# Quick memory management
+#remember This is important context    # Quick memory addition
+/memory add project requirements       # Structured memory
+@import path/to/context               # Import external context
+
+# Rapid project setup
+claude-setup --type node             # Force project type
+claude-setup --minimal               # Lightweight setup
+claude-setup --full                  # All features enabled
+
+# Session management
+claude --resume                       # Continue previous session
+claude --analytics                    # Show productivity stats
+claude --export-session              # Export session data
+```
+
+### **🎯 Advanced Workflow Examples**
+```bash
+# Complex architecture planning
+think ultra hard about microservices architecture for this e-commerce platform
+
+# Multi-step automation
+@npm install && @github create branch feature/new-auth && think about implementation strategy
+
+# Database-driven development
+@sqlite analyze schema && think deeply about optimization opportunities
+
+# Full-stack development flow
+@filesystem scan for API endpoints && @github check recent changes && think about integration points
+```
+
 ## 🛠️ Project Support
 
 Automatically detects and configures for:
@@ -94,23 +250,35 @@ curl -fsSL https://raw.githubusercontent.com/timothyoshea/fullvibemode/main/quic
 source ~/.zshrc  # or ~/.bashrc
 ```
 
-### 3. Set Up Any Project
+### 3. Verify Installation
+```bash
+# Check if FullVibeMode is installed
+ls ~/.claude-code-ultra/
+
+# Test the global command
+which claude-setup
+
+# Should show: /Users/yourname/.claude-code-ultra/setup-claude-code.sh
+```
+
+### 4. Set Up Any Project
 ```bash
 cd my-project
-claude-setup
+claude-setup  # Auto-detects project type and configures everything
 ```
 
-### 4. Start Claude Code
+### 5. Start Claude Code
 ```bash
-claude
+claude  # Now with full FullVibeMode automation!
 ```
 
-### 5. Enjoy Full Automation!
-- Use ultra thinking for complex problems
-- Let YOLO mode handle routine tasks
-- Get real-time notifications
-- Automatic git checkpoints
-- Multi-agent operations
+### 6. Enjoy Full Automation!
+- Use ultra thinking for complex problems: `think ultra hard about this architecture`
+- Let YOLO mode handle routine tasks automatically
+- Get real-time macOS notifications for everything
+- Automatic git checkpoints after major changes
+- Multi-agent operations: `@filesystem search for config files`
+- Session analytics and productivity insights
 
 ## 🔧 Advanced Features
 
