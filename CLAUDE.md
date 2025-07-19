@@ -1,7 +1,7 @@
-# Claude Code Research Repository
+# FullVibeMode - Claude Code Research Repository
 
 ## Project Purpose
-This repository serves as a comprehensive research and automation system for Claude Code, designed to:
+FullVibeMode serves as a comprehensive research and automation system for Claude Code, designed to:
 - Research and document Claude Code capabilities and best practices
 - Provide automated workflows and "YOLO mode" configurations
 - Maintain a knowledge base that improves over time

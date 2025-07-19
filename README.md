@@ -1,11 +1,11 @@
-# 🚀 Claude Code Ultra - Complete Automation System
+# 🚀 FullVibeMode - Claude Code Ultra Automation
 
-Transform Claude Code into a fully automated development partner with ultra thinking, YOLO mode, smart notifications, and multi-agent capabilities.
+FullVibeMode transforms Claude Code into a fully automated development partner with ultra thinking, YOLO mode, smart notifications, and multi-agent capabilities.
 
 ## ⚡ One-Command Install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/timoshea/ClaudeResearch/main/quick-install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/timothyoshea/fullvibemode/main/quick-install.sh | bash
 ```
 
 Then in any project directory:
@@ -86,7 +86,7 @@ your-project/
 
 ### 1. Install Globally
 ```bash
-curl -fsSL https://raw.githubusercontent.com/timoshea/ClaudeResearch/main/quick-install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/timothyoshea/fullvibemode/main/quick-install.sh | bash
 ```
 
 ### 2. Reload Your Shell
@@ -210,7 +210,7 @@ Built for the Claude Code community to maximize productivity and automation.
 **Ready to supercharge your Claude Code experience?**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/timoshea/ClaudeResearch/main/quick-install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/timothyoshea/fullvibemode/main/quick-install.sh | bash
 ```
 
 *Transform Claude Code from assistant to automated development partner!* ⚡

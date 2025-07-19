@@ -1,11 +1,11 @@
-# 🚀 Claude Code Ultra - Share This!
+# 🚀 FullVibeMode - Share This!
 
 ## For Your Friends/Colleagues
 
 Send them this **one-command install**:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/timoshea/ClaudeResearch/main/quick-install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/timothyoshea/fullvibemode/main/quick-install.sh | bash
 ```
 
 ## What They'll Get
@@ -65,13 +65,13 @@ think ultra hard about this architecture
 ### Option 1: Direct Download
 Share this link for instant install:
 ```
-https://raw.githubusercontent.com/timoshea/ClaudeResearch/main/quick-install.sh
+https://raw.githubusercontent.com/timothyoshea/fullvibemode/main/quick-install.sh
 ```
 
 ### Option 2: Full Repository
 Share the complete repository:
 ```
-https://github.com/timoshea/ClaudeResearch
+https://github.com/timothyoshea/fullvibemode
 ```
 
 ### Option 3: Just the Essentials

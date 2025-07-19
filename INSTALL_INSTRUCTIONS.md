@@ -1,18 +1,18 @@
-# Claude Code Ultra Setup - Installation Instructions
+# FullVibeMode - Claude Code Ultra Setup
 
 ## 🚀 One-Command Installation
 
 ### Option 1: Direct Download & Install
 ```bash
 # Download and run the installer
-curl -fsSL https://raw.githubusercontent.com/your-username/ClaudeResearch/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/timothyoshea/fullvibemode/main/quick-install.sh | bash
 ```
 
 ### Option 2: Clone and Install
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/ClaudeResearch.git
-cd ClaudeResearch
+git clone https://github.com/timothyoshea/fullvibemode.git
+cd fullvibemode
 
 # Run the installer
 ./install.sh

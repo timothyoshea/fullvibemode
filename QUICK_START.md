@@ -1,4 +1,4 @@
-# 🚀 Claude Code Ultra Setup - Quick Start
+# 🚀 FullVibeMode - Quick Start Guide
 
 ## One-Command Setup
 
@@ -6,10 +6,10 @@ To instantly set up the complete Claude Code automation system in any new reposi
 
 ```bash
 # From anywhere on your system:
-curl -s https://raw.githubusercontent.com/your-repo/claude-research/main/setup-templates/setup-claude-code.sh | bash
+curl -fsSL https://raw.githubusercontent.com/timothyoshea/fullvibemode/main/quick-install.sh | bash
 
 # Or if you have this repo locally:
-/path/to/ClaudeResearch/setup-templates/setup-claude-code.sh
+/path/to/fullvibemode/setup-templates/setup-claude-code.sh
 ```
 
 ## What You Get Instantly
